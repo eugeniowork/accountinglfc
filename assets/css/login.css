@@ -1,0 +1,73 @@
+body{
+	background:rgb(236, 236, 236);
+}
+button:active, button:focus{
+    outline:none !important;
+    box-shadow: none !important;
+}
+.btn-primary:focus{
+    background:#007bff;
+    color:white;
+}
+.login{
+    height: 100vh;
+}
+.login .login-form{
+    background: white;
+    padding:20px 35px;
+    min-height: 350px;
+    height: auto;
+    width: 400px;
+    border-radius: 5px;
+}
+.login .login-form input{
+    margin-bottom: 10px;
+    background:rgb(236, 236, 236);
+    padding-left: 45px;
+}
+.login .login-form input:focus{
+    box-shadow: none;
+}
+.login .login-form i{
+    /* background:rgb(236, 236, 236); */
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    padding: 10px 10px;
+    text-align: center;
+    color: #aaa;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.login .login-form .lfc-title{
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.login .login-form img{
+    height: 100px;
+    width: 100px;
+}
+.login .login-form .errors{
+    margin-top: 10px;
+}
+.login .login-form .forgot-password-btn{
+    font-style: italic;
+}
+.login .login-form .forgot-password-btn:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:600px){
+    .login .login-form{
+        height: 100vh;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .login .login-form .lfc-title{
+        font-size: 15px;
+    }
+}

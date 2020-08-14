@@ -1,0 +1,44 @@
+body{
+    background:rgb(236, 236, 236);
+    overflow-x: hidden;
+}
+//.form-control, 
+.dropdown-toggle, button:active, button:focus, .btn-link:focus, .btn:focus{
+    outline:none !important;
+    box-shadow: none !important;
+    background: none;
+    border: none;
+}
+.btn-primary:focus{
+    background:#007bff;
+    color:white;
+}
+
+.div-main-body{
+    width: 100%;
+    padding-left: 270px;
+    padding-right: 20px;
+    padding-top: 40px;
+    color:rgb(104, 101, 101);
+    padding-bottom: 50px;
+    .div-main-body-head{
+        background: #212529;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+        color:white;
+        height: 45px;
+        padding: 10px 20px;
+    }
+    .div-main-body-content{
+        background: white;
+        // box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 10px 10px;
+        min-height: 300px;
+    }
+}
+@import 'variables';
+@import '../auth/login';
+@import 'nav_bar';
